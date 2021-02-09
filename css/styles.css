@@ -20,6 +20,12 @@
 
 .link {
   text-decoration: none;
+  color: var(--text-nav-title-color);
+}
+
+a {
+  text-decoration: none;
+  color: var(--text-nav-title-color);
 }
 
 /* header */
@@ -31,7 +37,7 @@
 .logo {
   color: var(--logo);
   font-family: 'Raleway', sans-serif;
-  font-weight: 400;
+  font-weight: 700;
   font-size: 26px;
   line-height: 1.1;
   letter-spacing: 0.03em;
@@ -104,6 +110,11 @@
 }
 
 /* section advantages */
+
+.visually-hidden {
+  display: none;
+}
+
 .advantages .title {
   font-weight: 700;
   font-size: 14px;
@@ -166,10 +177,13 @@
 .footer-logo {
   color: var(--white-color);
   font-family: 'Raleway', sans-serif;
+  font-size: 26px;
 }
 
 .footer-text {
   color: var(--white-color);
+  font-weight: normal;
+  font-size: 14px;
   font-style: normal;
 }
 
@@ -195,11 +209,13 @@
 .button {
   border: none;
   font-family: 'Roboto', sans-serif;
+  background-color: var(--section-background);
 }
 
 .button:hover,
 .button:focus {
-  color: var(--accent-color);
+  color: var(--white-color);
+  background-color: var(--accent-color);
 }
 
 .link .title {
