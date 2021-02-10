@@ -23,7 +23,7 @@
   color: var(--text-nav-title-color);
 }
 
-a {
+.site-nav a {
   text-decoration: none;
   color: var(--text-nav-title-color);
 }
@@ -85,6 +85,7 @@ a {
 /* hero */
 .hero {
   background-color: var(--background);
+  /* text-align: center; */
 }
 
 .hero-title {
@@ -209,6 +210,9 @@ a {
 .button {
   border: none;
   font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  color: var(--text-nav-title-color);
   background-color: var(--section-background);
 }
 
